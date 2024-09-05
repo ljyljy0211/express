@@ -1,0 +1,27 @@
+{
+    "name": "yihaitao/express",
+    "description": "支持快递鸟、快递100的快递查询SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yihaitao",
+            "email": "306668387@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "guzzlehttp/guzzle": "^6.2|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YiHaiTao\\Express\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YiHaiTao\\Express\\ServiceProvider"
+            ]
+        }
+    }
+}
